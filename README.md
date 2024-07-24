@@ -81,7 +81,7 @@
 * <a href='http://keriko.fun/index.php/archives/72/' target='_blank'>Java的值传递和引用传递问题</a> 
 * [程序运行相对路径问题解析](http://keriko.fun/index.php/archives/67/)
 * [常用的AI工具集](http://keriko.fun/index.php/archives/73/)
-* <!-- END_SECTION:blog -->
+<!-- END_SECTION:blog -->
 
 </td></tr>
 
@@ -98,7 +98,7 @@
 * [实务学堂||没有出身、学历加持，他们如何走出自己的路](https://mp.weixin.qq.com/s/dk6K5WMyXG3Fw7O_fc4x-gv)
 * [ 钱婧老师的会客厅||追求“稳定”，就要敢于直面背后的不确定性](https://www.xiaoyuzhoufm.com/episode/658ed6cdbf3589e8946d5e7a)
 * [十字路口Crossing||我想击碎你们对于 AI 不切实际的幻想，并重建一个正确的认知](https://www.xiaoyuzhoufm.com/episode/6692529b37236c546edd4b2fv)
-* <!-- END_SECTION:brain -->
+<!-- END_SECTION:brain -->
 
 </td></tr>
 
