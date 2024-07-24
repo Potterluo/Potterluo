@@ -63,7 +63,7 @@
 
 <img align="right" width="88" src="assets/images/zhipu.svg" />
 
-- [北京智谱华章科技有限公司](https://baike.baidu.com/item/北京智谱华章科技有限公司/24537467)](https://zhipuai.cn/) &emsp; 📌 2024-04-15 —— 2024-07-17
+- [北京智谱华章科技有限公司](https://zhipuai.cn/))&emsp; 📌 2024-04-15 —— 2024-07-17
   - 工作岗位：大模型-G-研发实习生
   - 工作内容：参与CodeGeeX代码大模型评测平台前后端开发
 
