@@ -21,8 +21,8 @@
 
   <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/ghPotterluo/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Potterluo/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/sun0225SUN/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake.svg" />
     <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
   </picture>
 
@@ -37,25 +37,27 @@
 
 <img align="right" width="88" src="assets/images/jiaffy.jpg" />
 
-<p>&emsp;&emsp;嗨，你好，我是Keriko。热爱编程、摄影、读书、旅行。</p>
+<p>&emsp;&emsp;嗨，你好，我是Keriko。商业、科技、互联网旁观者</p>
 <p>&emsp;&emsp;热爱计算机科学和 IT 互联网事业，希望能成为一名优秀的开发者。</p>
-<p>&emsp;&emsp;我们正在让这个世界变得更加美好，通过代码的重复使用和延展构建完美体系。</p>
-<p>&emsp;&emsp;<strong>We're making the world a better place. Through constructing elegant hierarchies for maximum code reuse and extensibility.</strong></p>
+<p>&emsp;&emsp;🛰️在轨运行中 </p>
+<p>&emsp;&emsp;🍩努力成为现充的肥宅</p>
+<p>&emsp;&emsp;🏄🏻互联网十级冲浪选手</p>
+<p>&emsp;&emsp;💻有点理想主义的小镇青年</p>
+<p>&emsp;&emsp;<strong>May the world be less steeped in bias and inequity, may we both embrace a spirit unbound by societal norms, seeking the essence of self, valuing not by the measure of worldly possessions, but by the pride of being true to oneself.</strong></p>
 
 </td></tr>
 
-![HTML5 Badge](https://img.shields.io/badge/Java-E34F26?logo=Java&logoColor=fff&style=flat)
-
-![C Badge](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=fff&style=flat)
-![C++ Badge](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=fff&style=flat)
-
-![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat)
-![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat)
-![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat)
+![Java Badge](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white&style=flat)
+![Spring Badge](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=fff&style=flat)
+![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat)
 ![Vue.js Badge](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=fff&style=flat)
 ![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=flat)
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
-![Spring Badge](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=fff&style=flat)
+![C Badge](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=fff&style=flat)
+![Arduino Badge](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=fff&style=flat)
+![Linux Badge](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=000&style=flat)
+
+
 
 <tr><td>
 
@@ -65,7 +67,7 @@
 
 - [北京智谱华章科技有限公司](https://zhipuai.cn/)&emsp; 📌 2024-04-15 —— 2024-07-17
   - 工作岗位：大模型-G-研发实习生
-  - 工作内容：参与CodeGeeX代码大模型评测平台前后端开发
+  - 工作内容：参与CodeGeeX代码大模型评测平台产品设计及前后端开发
 
 </td></tr>
 
@@ -76,8 +78,10 @@
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/astronaut.png" />
 
 <!-- START_SECTION:blog -->
-* <a href='http://keriko.fun/index.php/archives/72/' target='_blank'>Java的值传递和引用传递问题</a> - 2024-07-11
-  <!-- END_SECTION:blog -->
+* <a href='http://keriko.fun/index.php/archives/72/' target='_blank'>Java的值传递和引用传递问题</a> 
+* [程序运行相对路径问题解析](http://keriko.fun/index.php/archives/67/)
+* [常用的AI工具集](http://keriko.fun/index.php/archives/73/)
+* <!-- END_SECTION:blog -->
 
 </td></tr>
 
@@ -88,19 +92,27 @@
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/technologist.png" />
 
 <!-- START_SECTION:brain -->
-* <a href='https://brain.sunguoqi.com/web/frontend/guide/evolution.html' target='_blank'>前端开发演进史</a> - 2023-03-25
-  <!-- END_SECTION:brain -->
+
+* [半拿铁||任天堂往事(5)：玩家之心](https://www.xiaoyuzhoufm.com/episode/6331b49f2a992d56e91e50a8)
+* [渤海小吏|| 南北归一！三百年史诗的最动情吟唱！](https://www.bilibili.com/video/BV1fw4m1Y7VD/)
+* [实务学堂||没有出身、学历加持，他们如何走出自己的路](https://mp.weixin.qq.com/s/dk6K5WMyXG3Fw7O_fc4x-gv)
+* [ 钱婧老师的会客厅||追求“稳定”，就要敢于直面背后的不确定性](https://www.xiaoyuzhoufm.com/episode/658ed6cdbf3589e8946d5e7a)
+* [十字路口Crossing||我想击碎你们对于 AI 不切实际的幻想，并重建一个正确的认知](https://www.xiaoyuzhoufm.com/episode/6692529b37236c546edd4b2fv)
+* <!-- END_SECTION:brain -->
 
 </td></tr>
 
 <tr><td>
 
-### 🤾‍♂️ Funny Soul
+### 🤾‍♂️ Recent Reading
 
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/artist.png" />
 
 <!-- START_SECTION:douban -->
-* <a href='https://book.douban.com/subject/35193035/' target='_blank'>读过认知觉醒</a> 🌟🌟🌟🌟🌟 力荐- 2023-11-10
+
+* [《银河帝国》](https://book.douban.com/subject/32568108/)
+* [《鬼吹灯》](https://book.douban.com/subject/34452623/)
+* [《如何避免孤独终老》](https://book.douban.com/subject/35496103/)
   <!-- END_SECTION:douban -->
 
 </td></tr>
@@ -120,13 +132,14 @@
 
 <div><img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" /><br/></div>
 
+
+
+<div style="display: flex; align-items: center;">  
+    <img align="left" width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/left.png" />  <picture style="margin: 0 10px;">    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Potterluo&theme=dark&hide_border=true" />    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Potterluo&theme=light&hide_border=true" />    
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Potterluo&theme=dark&hide_border=true" />  </picture>  <img align="right" width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/right.png" /></div>
 <!-- GitHub 数据统计 -->
 <img height="137px" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Potterluo&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
 <img height="137px" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Potterluo&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" /><br>
-
-</div>
-
-<div style="display: flex; align-items: center;">  <img align="left" width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/left.png" />  <picture style="margin: 0 10px;">    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Potterluo&theme=dark&hide_border=true" />    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Potterluo&theme=light&hide_border=true" />    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Potterluo&theme=dark&hide_border=true" />  </picture>  <img align="right" width="150" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/right.png" /></div>
 
 <!-- ########################################## 分割 ########################################## -->
 <img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" />
