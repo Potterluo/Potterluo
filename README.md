@@ -63,7 +63,7 @@
 
 ### 🏢 Work Experience
 
-<img align="right" width="88" src="assets/images/zhipu.svg" />
+<img align="right" width="60" src="assets/images/zhipu.svg" />
 
 - [北京智谱华章科技有限公司](https://zhipuai.cn/)&emsp; 📌 2024-04-15 —— 2024-07-17
   - 工作岗位：大模型-G-研发实习生
