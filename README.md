@@ -96,7 +96,7 @@
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/technologist.png" />
 
 <!-- START_SECTION:brain -->
-* [半拿铁||亨利 ·福特 给世界装上轮胎，然后呢？(https://www.xiaoyuzhoufm.com/episode/67f606670decaeb094e052b6)]
+* [半拿铁||亨利 ·福特 给世界装上轮胎，然后呢？](https://www.xiaoyuzhoufm.com/episode/67f606670decaeb094e052b6)
 * [半拿铁||任天堂往事(5)：玩家之心](https://www.xiaoyuzhoufm.com/episode/6331b49f2a992d56e91e50a8)
 * [渤海小吏|| 南北归一！三百年史诗的最动情吟唱！](https://www.bilibili.com/video/BV1fw4m1Y7VD/)
 * [实务学堂||没有出身、学历加持，他们如何走出自己的路](https://mp.weixin.qq.com/s/dk6K5WMyXG3Fw7O_fc4x-gv)
