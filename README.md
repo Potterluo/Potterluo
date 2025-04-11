@@ -69,30 +69,32 @@
   - 工作岗位：大模型-G-研发实习生
   - 工作内容：参与CodeGeeX代码大模型评测平台产品设计及前后端开发
 
+<img align="right" width="88" src="assets/images/huawei.png" />
+
+- [华为技术有限公司](https://www.huawei.com/cn/)&emsp; 📌 未入职
+  - 工作岗位：通用软件开发工程师
+
+
 </td></tr>
 
 <tr><td>
-
-### 📃 Recent Blog
+### 🧠  Personal Output
 
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/astronaut.png" />
 
-<!-- START_SECTION:blog -->
-* <a href='http://keriko.fun/index.php/archives/72/' target='_blank'>Java的值传递和引用传递问题</a> 
-* [程序运行相对路径问题解析](http://keriko.fun/index.php/archives/67/)
-* [常用的AI工具集](http://keriko.fun/index.php/archives/73/)
-<!-- END_SECTION:blog -->
+
+* [人工智能漫谈--从猫狗分类到 AI 统治世界](https://jjy8gebcx8.feishu.cn/docx/K3ZDdg5ZkoZyxYxdeMJcLQzgnhb?from=from_copylink)
+
 
 </td></tr>
 
 <tr><td>
-
 ### 🧠 Second Brain
 
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/technologist.png" />
 
 <!-- START_SECTION:brain -->
-
+* [半拿铁||亨利 ·福特 给世界装上轮胎，然后呢？(https://www.xiaoyuzhoufm.com/episode/67f606670decaeb094e052b6)
 * [半拿铁||任天堂往事(5)：玩家之心](https://www.xiaoyuzhoufm.com/episode/6331b49f2a992d56e91e50a8)
 * [渤海小吏|| 南北归一！三百年史诗的最动情吟唱！](https://www.bilibili.com/video/BV1fw4m1Y7VD/)
 * [实务学堂||没有出身、学历加持，他们如何走出自己的路](https://mp.weixin.qq.com/s/dk6K5WMyXG3Fw7O_fc4x-gv)
@@ -109,7 +111,7 @@
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/artist.png" />
 
 <!-- START_SECTION:douban -->
-
+* 太白金星有点烦
 * [《银河帝国》](https://book.douban.com/subject/32568108/)
 * [《鬼吹灯》](https://book.douban.com/subject/34452623/)
 * [《如何避免孤独终老》](https://book.douban.com/subject/35496103/)
