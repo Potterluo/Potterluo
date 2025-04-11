@@ -69,7 +69,7 @@
   - 工作岗位：大模型-G-研发实习生
   - 工作内容：参与CodeGeeX代码大模型评测平台产品设计及前后端开发
 
-<img align="right" width="88" src="assets/images/huawei.png" />
+<img align="right" width="60" src="assets/images/huawei.png" />
 
 - [华为技术有限公司](https://www.huawei.com/cn/)&emsp; 📌 未入职
   - 工作岗位：通用软件开发工程师
