@@ -1,0 +1,62 @@
+# 网站信息
+title: Keriko 博客
+description: 分享技术、生活与思考的个人博客
+keywords: blog, 博客, 技术, 生活
+
+# 作者信息
+Author:
+  name: Keriko
+  url: https://keriko.gitee.io
+
+# 播客配置（可选功能）
+podcast:
+  title: Keriko 博客
+  description: 分享技术、生活与思考的个人博客
+  author: Keriko
+  email: blog@keriko.com
+  image: /images/podcast-cover.jpg
+  category: Technology
+  subcategory: Software How-To
+  explicit: no
+  language: zh-CN
+
+# 主题配置
+theme:
+  accentColor: '#3b82f6'
+  backgroundColor: '#ffffff'
+  darkBackgroundColor: '#1a1a1a'
+
+  # 显示配置
+  showReadingTime: true
+  showModifiedDate: true
+  showWordCount: false
+
+  # 列表配置
+  numberOfPostsShown: 10
+  numberOfTagsShown: 20
+
+  # 社交媒体
+  social:
+    - name: GitHub
+      url: https://github.com/keriko
+    - name: Gitee
+      url: https://gitee.com/keriko
+    - name: Email
+      url: mailto:podcast@keriko.com
+
+# 首页配置
+home:
+  title: 欢迎来到 Keriko 博客
+  subtitle: 分享技术、生活与思考
+  description: 这里是我的个人博客，记录学习、思考和生活中的点点滴滴
+
+# 页脚
+footer:
+  showCopyright: true
+  showThemeAttribution: true
+  showAppearanceSwitcher: true
+
+# 性能优化
+performance:
+  enableFingerprinting: true
+  enableResourceGen: true

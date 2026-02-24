@@ -1,0 +1,42 @@
+name: Main Branch Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request_target:
+    paths:
+      - layouts/**
+      - assets/**
+      - static/**
+  pull_request:
+
+jobs:
+  build-deploy:
+    name: Test Build exampleSite
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Go
+        uses: actions/setup-go@v6.2.0
+        with:
+          go-version: '1.26.0'
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3.0.0
+        with:
+          # renovate: datasource=github-releases depName=gohugoio/hugo
+          hugo-version: '0.156.0'
+          extended: true
+
+      - name: Build
+        working-directory: ./exampleSite
+        run: hugo --minify --themesDir ../.. --baseURL https://chrede88.github.io/qubt/

@@ -1,0 +1,109 @@
+/* 播客自定义样式 */
+
+/* 播客节目卡片 */
+.episode-card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.episode-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.episode-card h2 {
+  margin-top: 0;
+}
+
+.episode-card h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.episode-card h2 a:hover {
+  color: var(--accent-color);
+}
+
+/* 播客元数据 */
+.episode-meta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.episode-number {
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+/* 音频播放器 */
+.audio-player,
+.audio-player-mini {
+  margin: 1.5rem 0;
+}
+
+.audio-player audio {
+  width: 100%;
+  height: 48px;
+}
+
+.audio-player-mini audio {
+  width: 100%;
+  height: 40px;
+}
+
+/* 播客标签 */
+.episode-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.episode-tags .tag {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+/* 播客章节 */
+.episode-chapters {
+  background-color: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.episode-chapters ul {
+  list-style: none;
+  padding: 0;
+}
+
+.episode-chapters li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.episode-chapters li:last-child {
+  border-bottom: none;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .episode-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .episode-card {
+    padding: 1rem;
+  }
+}

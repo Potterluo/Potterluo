@@ -1,0 +1,33 @@
+<!-- 播客RSS模板 -->
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ .Site.Params.description }}</description>
+    <language>{{ .Site.LanguageCode }}</language>
+    <itunes:author>{{ .Site.Params.author }}</itunes:author>
+    <itunes:summary>{{ .Site.Params.description }}</itunes:summary>
+    <itunes:explicit>{{ .Site.Params.podcast.explicit }}</itunes:explicit>
+    <itunes:image href="{{ .Site.Params.podcast.image | absURL }}"/>
+    <itunes:category text="{{ .Site.Params.podcast.category }}">
+      <itunes:subcategory text="{{ .Site.Params.podcast.subcategory }}"/>
+    </itunes:category>
+
+    {{ range first 50 (where .Site.RegularPages "Type" "podcast") }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <description>{{ .Description }}</description>
+      <enclosure url="{{ .Params.audio_file | absURL }}" length="{{ .Params.audio_size }}" type="{{ .Params.audio_type }}"/>
+      <guid>{{ .Permalink }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <itunes:author>{{ .Site.Params.author }}</itunes:author>
+      <itunes:subtitle>{{ .Params.subtitle }}</itunes:subtitle>
+      <itunes:summary>{{ .Description }}</itunes:summary>
+      <itunes:duration>{{ .Params.duration }}</itunes:duration>
+      <itunes:explicit>{{ .Site.Params.podcast.explicit }}</itunes:explicit>
+      <itunes:episode>{{ .Params.episode }}</itunes:episode>
+    </item>
+    {{ end }}
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+{{ define "main" }}
+<article class="podcast-episode">
+  <header class="episode-header">
+    <h1>{{ .Title }}</h1>
+    <div class="episode-meta">
+      <span class="episode-number">第 {{ .Params.episode }} 期</span>
+      <time class="episode-date">{{ .Date.Format "2006-01-02" }}</time>
+      <span class="episode-duration">{{ .Params.duration }}</span>
+    </div>
+    {{ with .Params.subtitle }}
+    <p class="episode-subtitle">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  {{ with .Params.audio_file }}
+  <div class="audio-player">
+    <audio controls preload="none">
+      <source src="{{ . | absURL }}" type="audio/mpeg">
+      您的浏览器不支持音频播放。
+    </audio>
+  </div>
+  {{ end }}
+
+  <div class="episode-content">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.chapters }}
+  <div class="episode-chapters">
+    <h3>章节</h3>
+    <ul>
+      {{ range . }}
+      <li>{{ .time }} - {{ .title }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{ with .Params.guests }}
+  <div class="episode-guests">
+    <h3>嘉宾</h3>
+    <ul>
+      {{ range . }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  <footer class="episode-footer">
+    {{ with .Params.categories }}
+    <div class="episode-categories">
+      <strong>分类：</strong>
+      {{ range . }}
+      <span class="category">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.tags }}
+    <div class="episode-tags">
+      <strong>标签：</strong>
+      {{ range . }}
+      <span class="tag">#{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+  </footer>
+</article>
+{{ end }}

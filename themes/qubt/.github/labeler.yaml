@@ -1,0 +1,23 @@
+area/exampleSite:
+- changed-files:
+  - any-glob-to-any-file: "exampleSite/**/*"
+
+area/github:
+- changed-files:
+  - any-glob-to-any-file: ".github/**/*"
+
+area/css:
+- changed-files:
+  - any-glob-to-any-file: "assets/css/**/*"
+
+area/html:
+- changed-files:
+  - any-glob-to-any-file: "layouts/**/*"
+
+area/lighthouse:
+- changed-files:
+  - any-glob-to-any-file: "lighthouse/**/*"
+
+area/static:
+- changed-files:
+  - any-glob-to-any-file: "static/**/*"

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://keriko.gitee.io/sitemap.xml

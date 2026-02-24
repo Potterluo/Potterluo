@@ -1,0 +1,77 @@
+baseURL: 'https://keriko.gitee.io/'
+languageCode: 'zh-CN'
+title: 'Keriko 博客'
+theme: 'qubt'
+
+# 摘要配置
+summaryLength: 50  # 摘要长度（单词数），中文建议30-50
+hasCJKLanguage: true  # 启用中日韩语言支持
+
+# 播客相关配置
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
+
+# 播客RSS配置
+mediaTypes:
+  audio/mpeg:
+    suffixes:
+      - mp3
+
+outputFormats:
+  Podcast:
+    mediaType: application/rss+xml
+    baseName: podcast
+    isPlainText: false
+
+taxonomies:
+  tag: tags
+  category: categories
+  episode: episodes
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: friendly
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false
+
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepWhitespace: false
+    js:
+      keepVarName: false
+    css:
+      precision: 0
+
+privacy:
+  disqus:
+    disable: true
+  youtube:
+    disable: false
+  vimeo:
+    disable: false
+
+# 使用本地主题或git submodule
+module:
+  mounts:
+    - source: themes/qubt/layouts
+      target: layouts
+    - source: themes/qubt/assets
+      target: assets
+    - source: themes/qubt/static
+      target: static
+    - source: themes/qubt/archetypes
+      target: archetypes
+    - source: themes/qubt/data
+      target: data

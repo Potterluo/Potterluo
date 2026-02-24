@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="podcast-list">
+  <header class="list-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </header>
+
+  <div class="episodes">
+    {{ range .Pages }}
+    <article class="episode-card">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="episode-meta">
+        <span class="episode-number">第 {{ .Params.episode }} 期</span>
+        <time datetime="{{ .Date.Format "2006-01-15" }}">{{ .Date.Format "2006-01-02" }}</time>
+        <span class="episode-duration">{{ .Params.duration }}</span>
+      </div>
+      {{ with .Params.subtitle }}
+      <p class="episode-subtitle">{{ . }}</p>
+      {{ end }}
+      {{ with .Description }}
+      <p class="episode-description">{{ . }}</p>
+      {{ end }}
+
+      {{ with .Params.audio_file }}
+      <div class="audio-player-mini">
+        <audio controls preload="none">
+          <source src="{{ . | absURL }}" type="audio/mpeg">
+        </audio>
+      </div>
+      {{ end }}
+
+      <div class="episode-tags">
+        {{ range .Params.tags }}
+        <span class="tag">#{{ . }}</span>
+        {{ end }}
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
