@@ -50,12 +50,12 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   showScrollToTop = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, hero, card, background, custom
+  layout = "profile" # valid options: page, profile, hero, card, background, custom
   # homepageImage = "/img/iceland.jpg" # used in: hero, and card
-  showRecent = false
-  showRecentItems = 12
+  showRecent = true  # 开启最近更新显示
+  showRecentItems = 5  # 显示最近 5 篇文章
   showMoreLink = true
-  showMoreLinkDest = "docs"
+  showMoreLinkDest = "posts"  # 更多文章链接到博客列表
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background

@@ -3,6 +3,7 @@ title: "欢迎来到我的博客"
 date: 2026-03-08T19:30:00+08:00
 draft: false
 description: "这是我的第一篇博客文章，使用 Hugo 和 Blowfish 主题搭建"
+featuredImage: "/img/featured.svg"  # 示例：使用默认封面图
 tags:
   - Hugo
   - Blowfish
