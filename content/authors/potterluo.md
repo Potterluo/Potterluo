@@ -1,6 +1,6 @@
 ---
-name: "Potterluo"
-bio: "热爱技术的开发者"
-avatar: "img/avatar.png"
+name: "keriko"
+bio: "kerikoの行星观察笔记"
+avatar: "img/avatr.jpg"
 # website: "https://yourwebsite.com"
 ---

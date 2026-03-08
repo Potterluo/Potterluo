@@ -24,9 +24,9 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/background.svg"
+defaultBackgroundImage = ""  # 去除背景图片
 defaultFeaturedImage = "/img/featured.svg"
-defaultSocialImage = "/img/blowfish_banner.png"
+defaultSocialImage = "/img/avatr.jpg"  # 使用你的头像作为社交图片
 hotlinkFeatureImage = false
 # imagePosition = "50% 50%"
 

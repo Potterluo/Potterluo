@@ -7,6 +7,8 @@ baseURL = "https://potterluo.github.io/"  # GitHub Actions 部署到根目录
 defaultContentLanguage = "zh-cn"  # 设置默认语言为中文
 disableLanguages = [] #to allow translation work requiring shipping to production
 
+title = "kerikoの行星观察笔记"  # 网站标题
+
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
