@@ -8,12 +8,12 @@ title = "kerikoの行星观察笔记"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "/img/avatr.jpg"
+  logo = "img/avatr.jpg"
   description = "kerikoの行星观察笔记 - 记录学习和生活"
 
 [params.author]
   name = "keriko"
-  image = "/img/avatr.jpg"
+  image = "img/avatr.jpg"
   headline = "kerikoの行星观察笔记"
   bio = "记录学习和生活"
   links = [
