@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo version:*)",
+      "Bash(hugo new:*)",
+      "Bash(git clone:*)",
+      "Bash(timeout 10 bash:*)",
+      "Bash(cp:*)",
+      "Bash(dir:*)",
+      "Bash(rm:*)",
+      "Bash(find:*)",
+      "Bash(hugo server:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
