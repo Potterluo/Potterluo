@@ -2,6 +2,8 @@
 
 这是使用 [Hugo](https://gohugo.io/) 和 [Blowfish](https://github.com/nunocoracao/blowfish) 主题搭建的个人博客。
 
+> **注意**：要部署到 `https://potterluo.github.io`，需要将仓库名称改为 `Potterluo.github.io`
+
 ## 🚀 技术栈
 
 - **Hugo**: 快速的静态网站生成器
