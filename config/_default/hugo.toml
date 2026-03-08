@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://potterluo.github.io"  # 改为你的 GitHub Pages 地址
+baseURL = "https://potterluo.github.io/Potterluo/"  # 当前仓库路径
 defaultContentLanguage = "zh-cn"  # 设置默认语言为中文
 disableLanguages = [] #to allow translation work requiring shipping to production
 
