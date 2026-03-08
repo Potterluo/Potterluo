@@ -13,7 +13,7 @@ title = "kerikoの行星观察笔记"
 
 [params.author]
   name = "keriko"
-  image = "img/avatr.jpg"
+  # image = "img/avatr.jpg"  # 暂时注释，使用 logo 代替
   headline = "kerikoの行星观察笔记"
   bio = "记录学习和生活"
   links = [
