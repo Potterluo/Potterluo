@@ -36,6 +36,14 @@ LLM KV Cache 持久化与复用方案。探索在请求间复用 KV Cache，减�
 
 ---
 
+### PrefixBench
+
+{{< github repo="Potterluo/PrefixBench" >}}
+
+LLM 长序列推理 KV Cache 前缀复用性能评估基准。31,255条测试样本覆盖 8K-128K 五个级别，支持中英文双语，兼容 EvalScope/AIS Bench/vLLM Bench。[ModelScope 数据集](https://modelscope.cn/datasets/keriko/PrefixBench)
+
+---
+
 ## 容器工具链
 
 ### docker-pull-tar
@@ -56,6 +64,24 @@ LLM KV Cache 持久化与复用方案。探索在请求间复用 KV Cache，减�
 
 ---
 
+## MCP 工具链
+
+### API2MCP
+
+{{< github repo="Potterluo/API2MCP" >}}
+
+API 转 MCP 封装工具。将任意 REST API 封装为标准 MCP 服务，支持 Web 管理界面、多种认证方式、SSE 流式。基于 FastAPI + FastMCP。
+
+---
+
+### MCPS2ONE
+
+{{< github repo="Potterluo/MCPS2ONE" >}}
+
+MCP 智能工具选择器。用小模型（Qwen-1.5B等）智能筛选最相关的 MCP 工具，减少主模型 90% 的 token 消耗。支持 Keyword/Semantic/LLM/Hybrid 多种策略。
+
+---
+
 ## 其他项目
 
 ### MultiUserClaw
@@ -72,9 +98,12 @@ LLM KV Cache 持久化与复用方案。探索在请求间复用 KV Cache，减�
 |------|------|----------------|
 | ClawPerf | CLI 工具 | LLM 服务性能基准测试 |
 | KVCache-calculator | Web 工具 | KV Cache 内存计算 |
+| unified-cache-management | Python | KV Cache 持久化复用 |
+| PrefixBench | 数据集 | KV Cache 前缀复用性能评估 |
 | docker-pull-tar | Shell 工具 | 无 Docker 环境拉取镜像 |
 | MirrorX | 系统 | 容器镜像同步管理 |
-| unified-cache-management | Python | KV Cache 持久化复用 |
+| API2MCP | API 工具 | REST API 转 MCP 封装 |
+| MCPS2ONE | 智能筛选 | MCP 工具 token 优化 |
 | MultiUserClaw | Bot | 多用户 LLM 聊天 |
 
 ---
