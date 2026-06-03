@@ -21,6 +21,11 @@
   weight = 20
 
 [[main]]
+  name = "项目"
+  pageRef = "projects"
+  weight = 25
+
+[[main]]
   name = "关于"
   pageRef = "about"
   weight = 30
