@@ -1,8 +1,18 @@
-# 👋 Hey, I'm Keriko (Potterluo)
+# 👋 Hey, I'm Keriko (@Potterluo)
 
-> **"Building infrastructure for the AI era — from KV Cache to container pipelines."**
+> **LLM Infrastructure Engineer** · Beijing, UCAS
+>
+> Building the infrastructure for the AI era — KV Cache, container pipelines, performance tooling.
 
----
+<img src="assets/avatr.png" width="130" align="right" alt="avatar" />
+
+## 🔭 What I do
+
+- **LLM 推理基础设施**：KV Cache 优化、前缀缓存、混合模型（MLA / SWA / Mamba）缓存语义
+- **容器工具链**：离线镜像分发、Registry 同步与镜像加速
+- **性能工程**：LLM 服务自动化基准测试（TTFT / TPOT / Throughput）
+
+📝 博客：**[keriko-blog.pages.dev](https://keriko-blog.pages.dev)** · 记录技术探索、开源旅程和偶尔发呆的地方
 
 ## 📊 GitHub Stats
 
@@ -12,52 +22,52 @@
 
 ![Streak Stats](https://streak-stats.demolab.com?user=Potterluo&theme=radical)
 
----
+## 🧰 Tech Stack
 
-## 🛠️ Tech Stack
-
-![LLM](https://img.shields.io/badge/LLM_Infrastructure-FF6F00?style=for-the-badge&logo=openai&logoColor=white)
+![LLM 推理](https://img.shields.io/badge/LLM_Infrastructure-FF6F00?style=for-the-badge&logo=openai&logoColor=white)
 ![KV Cache](https://img.shields.io/badge/KV_Cache-E91E63?style=for-the-badge&logo=memory&logoColor=white)
-![Container](https://img.shields.io/badge/Container_Image-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Performance](https://img.shields.io/badge/Performance_Test-4A90E2?style=for-the-badge&logo=speedtest&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-7C3AED?style=for-the-badge&logo=protocols&logoColor=white)
+![容器](https://img.shields.io/badge/Container-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![性能测试](https://img.shields.io/badge/Performance_Test-4A90E2?style=for-the-badge&logo=speedtest&logoColor=white)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=white)
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-5B5BD6?style=for-the-badge&logo=llm&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
 
 ## 🚀 Featured Projects
 
-| Project | Description |
-|---------|-------------|
-| **[ClawPerf](https://github.com/Potterluo/ClawPerf)** | LLM inference performance benchmarking toolkit |
-| **[MirrorX](https://github.com/Potterluo/MirrorX)** | Container image mirror & distribution tool |
-| **[KVCache-calculator](https://github.com/Potterluo/KVCache-calculator)** | KV Cache memory calculator for LLM inference |
-| **[docker-pull-tar](https://github.com/Potterluo/docker-pull-tar)** | Export container images as tar archives |
-| **[PrefixBench](https://github.com/Potterluo/PrefixBench)** | Prefix caching benchmark for LLM systems |
-| **[MCPS2ONE](https://github.com/Potterluo/MCPS2ONE)** | MCP server aggregation & unified gateway |
-| **[API2MCP](https://github.com/Potterluo/API2MCP)** | Convert REST APIs to MCP tools |
+| 项目 | 简介 |
+|------|------|
+| [ClawPerf](https://github.com/Potterluo/ClawPerf) | LLM 服务 CLI 基准测试工具：TTFB、TPS、延迟分布、并发压测 |
+| [KVCache-calculator](https://github.com/Potterluo/KVCache-calculator) | KV Cache 显存计算器，支持 MLA / GQA / MHA / Hybrid |
+| [docker-pull-tar](https://github.com/Potterluo/docker-pull-tar) | 无需 Docker/Python 的镜像拉取工具，适合离线部署 |
+| [PrefixBench](https://github.com/Potterluo/PrefixBench) | LLM 前缀缓存性能评估基准：31K+ 样本，8K–128K 上下文 |
+| [MCPS2ONE](https://github.com/Potterluo/MCPS2ONE) | 小模型智能选择 MCP 工具，省 90% token |
+| [API2MCP](https://github.com/Potterluo/API2MCP) | 任意 REST API 一键封装为 MCP 服务 |
+| [MirrorX](https://github.com/Potterluo/MirrorX) | 容器镜像同步管理系统（skopeo + cron + webhook） |
+| [MultiUserClaw](https://github.com/Potterluo/MultiUserClaw) | 多用户 LLM 聊天 Bot（微信/钉钉/飞书） |
+| [UCM](https://github.com/ModelEngine-Group/unified-cache-management) | 开源核心贡献 · KV Cache 持久化与跨请求复用（vLLM 集成） |
 
----
+## 📝 Latest Blog Posts
 
-## 📝 Blog & Social
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
-[![Blog](https://img.shields.io/badge/Blog-potterluo.github.io-0A0A0A?style=for-the-badge&logo=hugo&logoColor=white)](https://potterluo.github.io)
+## 🔥 Activity
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Potterluo&theme=radical)](https://github.com/Potterluo)
+
+## 📬 Find me
+
+[![Blog](https://img.shields.io/badge/Blog-keriko_blog.pages.dev-0A0A0A?style=for-the-badge&logo=astro&logoColor=white)](https://keriko-blog.pages.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-Potterluo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Potterluo)
-[![Website](https://img.shields.io/badge/Website-keriko.fun-1DB954?style=for-the-badge&logo=website&logoColor=white)](https://keriko.fun)
-
----
-
-## 🔥 Activity Heatmap
-
-[![Activity Graph](https://github.com/Potterluo?tab=overview)](https://github.com/Potterluo?tab=overview)
+[![Website](https://img.shields.io/badge/Website-keriko.fun-1DB954?style=for-the-badge&logo=globe&logoColor=white)](https://keriko.fun)
 
 ---
 
