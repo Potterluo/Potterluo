@@ -12,14 +12,39 @@
 
 ## 🧰 Tech Stack
 
-[![My Skills](https://skillicons.dev/icons?i=python,go,rust,bash,pytorch,docker,kubernetes,linux,git&perline=9)](https://skillicons.dev)
+**LLM 推理**
+
+![vLLM](https://img.shields.io/badge/vLLM-5B5BD6?style=for-the-badge)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge)
+![KV Cache](https://img.shields.io/badge/KV_Cache-E91E63?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-7C3AED?style=for-the-badge)
+
+**语言**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+**基础设施**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+
+**工具链**
+
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge)
+![Perf Testing](https://img.shields.io/badge/Perf_Testing-4A90E2?style=for-the-badge)
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Potterluo&show_icons=true&theme=radical&include_all_commits=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Potterluo&layout=compact&theme=radical" width="44%" alt="Top Languages" />
-</p>
+[![GitHub Followers](https://img.shields.io/github/followers/Potterluo?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/Potterluo)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Potterluo&theme=radical)
 
 ## 🚀 Projects
 
