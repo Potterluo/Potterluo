@@ -61,7 +61,11 @@
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+- [UCM 缓存系统：面向混合模型的分层设计报告](https://keriko-blog.pages.dev/posts/ucm-hybrid-cache-design) · Fri Aug 28 2026 12:00 AM
+- [LLM 注意力机制与架构演进](https://keriko-blog.pages.dev/posts/llm-attention-mechanism) · Sat Aug 22 2026 12:00 AM
+- [Jenkins 流水线异步调用与跨流水线通信完全指南](https://keriko-blog.pages.dev/posts/017-jenkins-async-pipeline) · Mon Jun 08 2026 12:00 AM
+- [从磁盘 I/O 到 B+树索引：一次被面试问深的学习之旅](https://keriko-blog.pages.dev/posts/009-btree-index) · Wed Jun 03 2026 12:00 AM
+- [读 Nano-vLLM 源码：一个极简 LLM 推理引擎是如何工作的](https://keriko-blog.pages.dev/posts/010-nanovllm) · Wed Jun 03 2026 12:00 AM<!-- BLOG-POST-LIST:END -->
 
 ## 📬 Links
 
