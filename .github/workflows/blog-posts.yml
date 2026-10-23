@@ -13,11 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - uses: actions/setup-node@v4
         with:
-          feed_list: "https://keriko-blog.pages.dev/rss.xml"
-          max_post_count: 6
-          comment_tag_name: BLOG-POST-LIST
-          date_format: "UTC: yyyy-mm-dd"
-          template: "- [$title]($url) · $date$newline"
-          commit_message: "chore: update latest blog posts"
+          node-version: 22
+      - name: Update latest posts
+        run: node scripts/update-latest-posts.mjs
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update latest blog posts"
+          git push
