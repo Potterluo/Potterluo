@@ -4,7 +4,7 @@
 
 # 你好，我是 Keriko 👋
 
-**LLM 基础设施工程师** · 中国科学院大学（UCAS）· 北京
+**AI文明观测员** 
 
 [![博客](https://img.shields.io/badge/博客-行星观察笔记-397C82?style=flat-square&logo=astro&logoColor=white)](https://keriko-blog.pages.dev)
 [![RSS](https://img.shields.io/badge/RSS-订阅-EE802F?style=flat-square&logo=rss&logoColor=white)](https://keriko-blog.pages.dev/rss.xml)
@@ -18,7 +18,7 @@
 
 ## 🧭 关于我
 
-- 🔭 在 **UCAS** 做 LLM 推理基础设施，主要折腾 **KV Cache 的持久化、卸载与跨请求复用**
+- 🔭 在做 LLM 推理基础设施，主要折腾 **KV Cache 的持久化、卸载与跨请求复用**
 - 🧪 喜欢把「感觉快了」变成可度量的数字：TTFT、TPOT、缓存命中率、吞吐
 - 🧰 把工作里的重复劳动做成工具：镜像分发、MCP 网关、性能基准
 - ✍️ 在 [「行星观察笔记」](https://keriko-blog.pages.dev) 记录技术复盘、开源旅程，和偶尔的发呆
