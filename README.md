@@ -48,12 +48,12 @@
 ## 📝 最近在写
 
 <!-- BLOG-POST-LIST:START -->
+- [把定义搞清楚：从 Transformer 到大模型的一条主线](https://keriko-blog.pages.dev/posts/029-from-definition-to-agent) · 2026-10-31
+- [从预测房价到预测下一个词](https://keriko-blog.pages.dev/posts/028-from-house-price-to-next-token) · 2026-10-31
+- [三种思维在 Agent 时代的位移](https://keriko-blog.pages.dev/posts/027-agent-era-three-thinking) · 2026-10-30
 - [Agent 时代的课程该长什么样：从信息管道到 Agent-Native 学习框架](https://keriko-blog.pages.dev/posts/026-agent-era-course-design) · 2026-10-30
 - [极致性能 vs 极致兼容：UCM 与 LMCache 的两种形状](https://keriko-blog.pages.dev/posts/025-lmcache-compatibility) · 2026-10-23
 - [UCM 的极致性能路线：四条反直觉设计，和它们各自的代价](https://keriko-blog.pages.dev/posts/024-ucm-performance-first) · 2026-10-23
-- [KVCache 卸载方案技术竞争力对比：UCM vs 七家](https://keriko-blog.pages.dev/posts/023-kvcache-competitive-analysis) · 2026-10-23
-- [UCM 演进之路：从 commit 史看一个 KV Cache 系统如何长出来](https://keriko-blog.pages.dev/posts/022-ucm-evolution) · 2026-10-23
-- [多 rank 共享 KV Cache：UCM 加载路径的重构](https://keriko-blog.pages.dev/posts/021-ucm-multi-rank-load) · 2026-10-23
 <!-- BLOG-POST-LIST:END -->
 
 <sub>由 GitHub Actions 每天从 [RSS](https://keriko-blog.pages.dev/rss.xml) 自动同步 · [全部文章 →](https://keriko-blog.pages.dev/posts)</sub>
