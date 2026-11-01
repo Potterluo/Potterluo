@@ -48,12 +48,12 @@
 ## 📝 最近在写
 
 <!-- BLOG-POST-LIST:START -->
+- [手写一个 Agent Harness：从运行原理到工程实现](https://keriko-blog.pages.dev/posts/032-building-a-harness) · 2026-10-31
+- [骨架与血肉：Agent 的分层设计和它的六个组件](https://keriko-blog.pages.dev/posts/031-agent-skeleton-and-flesh) · 2026-10-31
+- [一个 Agent 后端该怎么分层](https://keriko-blog.pages.dev/posts/030-agent-backend-layers) · 2026-10-31
 - [把定义搞清楚：从 Transformer 到大模型的一条主线](https://keriko-blog.pages.dev/posts/029-from-definition-to-agent) · 2026-10-31
 - [从预测房价到预测下一个词](https://keriko-blog.pages.dev/posts/028-from-house-price-to-next-token) · 2026-10-31
 - [三种思维在 Agent 时代的位移](https://keriko-blog.pages.dev/posts/027-agent-era-three-thinking) · 2026-10-30
-- [Agent 时代的课程该长什么样：从信息管道到 Agent-Native 学习框架](https://keriko-blog.pages.dev/posts/026-agent-era-course-design) · 2026-10-30
-- [极致性能 vs 极致兼容：UCM 与 LMCache 的两种形状](https://keriko-blog.pages.dev/posts/025-lmcache-compatibility) · 2026-10-23
-- [UCM 的极致性能路线：四条反直觉设计，和它们各自的代价](https://keriko-blog.pages.dev/posts/024-ucm-performance-first) · 2026-10-23
 <!-- BLOG-POST-LIST:END -->
 
 <sub>由 GitHub Actions 每天从 [RSS](https://keriko-blog.pages.dev/rss.xml) 自动同步 · [全部文章 →](https://keriko-blog.pages.dev/posts)</sub>
