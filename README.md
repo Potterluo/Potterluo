@@ -48,12 +48,12 @@
 ## 📝 最近在写
 
 <!-- BLOG-POST-LIST:START -->
+- [Argus v2：把 deploy 和 clean 赶出平台](https://keriko-blog.pages.dev/posts/034-argus-v2-design-evolution) · 2026-11-11
 - [同一份会话，三种搬法：AgentX 与 ClawPerf 的回放族](https://keriko-blog.pages.dev/posts/033-agentx-vs-clawperf) · 2026-11-02
 - [手写一个 Agent Harness：从运行原理到工程实现](https://keriko-blog.pages.dev/posts/032-building-a-harness) · 2026-10-31
 - [骨架与血肉：Agent 的分层设计和它的六个组件](https://keriko-blog.pages.dev/posts/031-agent-skeleton-and-flesh) · 2026-10-31
 - [一个 Agent 后端该怎么分层](https://keriko-blog.pages.dev/posts/030-agent-backend-layers) · 2026-10-31
 - [把定义搞清楚：从 Transformer 到大模型的一条主线](https://keriko-blog.pages.dev/posts/029-from-definition-to-agent) · 2026-10-31
-- [从预测房价到预测下一个词](https://keriko-blog.pages.dev/posts/028-from-house-price-to-next-token) · 2026-10-31
 <!-- BLOG-POST-LIST:END -->
 
 <sub>由 GitHub Actions 每天从 [RSS](https://keriko-blog.pages.dev/rss.xml) 自动同步 · [全部文章 →](https://keriko-blog.pages.dev/posts)</sub>
